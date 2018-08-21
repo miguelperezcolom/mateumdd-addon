@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mateumdd-addon-addon/mateumdd-addon.iml" filepath="$PROJECT_DIR$/mateumdd-addon-addon/mateumdd-addon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mateumdd-addon-demo/mateumdd-addon-demo.iml" filepath="$PROJECT_DIR$/mateumdd-addon-demo/mateumdd-addon-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mateumdd-addon-root.iml" filepath="$PROJECT_DIR$/mateumdd-addon-root.iml" />
+    </modules>
+  </component>
+</project>
