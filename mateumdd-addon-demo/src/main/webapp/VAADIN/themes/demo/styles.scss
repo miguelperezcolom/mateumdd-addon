@@ -1,14 +1,9 @@
 @import "../mateumdd/mateumdd.scss";
 
-$gray: #d1d1cf;
-$green: #40b527;
-$darkgreen: darken($green, 30%);
-
 // Prefix all selectors in your theme with .demo
 .demo {
 
 	// Include valo theme styles in your theme
 	@include mateumdd;
-
 
 }

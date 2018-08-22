@@ -5,7 +5,7 @@
 	<groupId>io.mateu</groupId>
 	<artifactId>mateumdd-addon</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>Mateu MDD Add-on</name>
 
 	<prerequisites>
@@ -57,6 +57,24 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+
+
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>mateu-central</id>
+			<url>http://nexus.mateu.io/repository/mateu-central/</url>
+			<layout>default</layout>
+		</repository>
+		<snapshotRepository>
+			<uniqueVersion>true</uniqueVersion>
+			<id>mateu-central</id>
+			<url>http://nexus.mateu.io/repository/mateu-central/</url>
+			<layout>default</layout>
+		</snapshotRepository>
+	</distributionManagement>
+
+
 
 	<repositories>
 
