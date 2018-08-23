@@ -54,7 +54,7 @@
     <orderEntry type="library" name="Maven: jakarta-regexp:jakarta-regexp:1.4" level="project" />
     <orderEntry type="library" name="Maven: org.olap4j:olap4j:0.9.7.309-JS-3" level="project" />
     <orderEntry type="library" name="Maven: com.google.zxing:core:3.2.1" level="project" />
-    <orderEntry type="module" module-name="mateumdd-addon" />
+    <orderEntry type="library" name="Maven: io.mateu:mateumdd-addon:0.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-server:8.5.1" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-shared:8.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.11.2" level="project" />

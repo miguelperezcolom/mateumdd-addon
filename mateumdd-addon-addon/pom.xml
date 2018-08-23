@@ -5,7 +5,7 @@
 	<groupId>io.mateu</groupId>
 	<artifactId>mateumdd-addon</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<name>Mateu MDD Add-on</name>
 
 	<prerequisites>
@@ -132,7 +132,7 @@
 		<dependency>
 			<groupId>io.mateu</groupId>
 			<artifactId>mdd-core</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
 			<!-- exclude eclipselink -->
 			<!--
             <exclusions>

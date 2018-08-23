@@ -31,233 +31,305 @@
 
 @import "../valo/valo.scss";
 
+
 @mixin mateumdd {
   @include valo;
 
   // Insert your own theme rules here
 
+  .mobileapp {
+    padding: 0px;
+
+    .componentwrapper {
+      padding: 10px;
+
+      .section {
+        padding: 0px;
+      }
+
+      .filterscomponent {
+        padding: 0px;
+      }
+
+    }
+  }
+
   .miapp {
 
+    width: 100%;
+    height: 100%;
+    padding: 0px !important;
+
+    .appheader {
       width: 100%;
+      height: 50px;
+      background-color: darkslategray;
+      padding: 8px;
+      vertical-align: center;
+
+      color: white;
+
+      .burguer {
+        color: white;
+        display: none;
+        margin-top: 7px;
+      }
+
+      .tabs {
+        color: white;
+      }
+
+      .navigate {
+        color: white;
+      }
+
+      .apptitle {
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+
+      .signingbutton {
+        text-decoration: none;
+        color: white;
+      }
+
+      .greeting {
+        margin-top: 7px;
+      }
+
+    }
+
+
+    .leftside {
+
+      background-color: lightslategrey;
+      width: 250px;
       height: 100%;
-      padding: 0px !important;
+      padding:  0px;
 
-        .appheader {
-          width: 100%;
-          height: 50px;
-          background-color: darkslategray;
-          padding: 8px;
-          vertical-align: center;
+      .sesion {
+        padding: 0px;
 
-          color: white;
-
-          .burguer {
-            color: white;
-            display: none;
-            margin-top: 7px;
-          }
-
-          .tabs {
-            color: white;
-          }
-
-          .navigate {
-            color: white;
-          }
-
-          .apptitle {
-            font-weight: bold;
-            text-decoration: none;
-            color: white;
-          }
-
-          .signingbutton {
-            text-decoration: none;
-            color: white;
-          }
-
-          .greeting {
-            margin-top: 7px;
-          }
-
+        .foto {
+          padding: 0px;
+          margin-left: 50px;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          border: 3px solid transparent;
+          cursor: pointer;
         }
 
-
-        .leftside {
-
-          background-color: lightslategrey;
-          width: 250px;
-          height: 100%;
-          padding:  0px;
-
-          .sesion {
-            padding: 0px;
-
-            .foto {
-              padding: 0px;
-              margin-left: 50px;
-              width: 150px;
-              height: 150px;
-              border-radius: 50%;
-              border: 3px solid transparent;
-              cursor: pointer;
-            }
-
-            .foto:hover {
-              border-color: whitesmoke;
-            }
-
-          }
-
-
-
-          .v-slot-tituloarea {
-            margin-top: 14px;
-            margin-bottom: 20px;
-          }
-
-          .navegacion {
-
-            width: 100%;
-            padding: 0px;
-
-            .tituloarea {
-              padding: 10px;
-              width: 100%;
-              font-weight: bold;
-              text-align: center;
-              cursor: pointer;
-            }
-
-            .v-slot-tituloarea {
-              background-color: slategray;
-            }
-
-            .area-1 {
-              background-color: slategrey;
-            }
-
-            .area-1:hover {
-              background-color: #73a5d7;
-            }
-
-            .area-2 {
-              background-color: lightyellow;
-            }
-
-            .area-2:hover {
-              background-color: #73a5d7;
-            }
-
-            .area-3 {
-              background-color: lightcoral;
-            }
-
-            .area-3:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .area-4 {
-              background-color: lightblue;
-            }
-
-            .area-4:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .area-5 {
-              background-color: lightgreen;
-            }
-
-            .area-5:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .area-6 {
-              background-color: lightpink;
-            }
-
-            .area-6:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .area-7 {
-              background-color: lightseagreen;
-            }
-
-            .area-7:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .area-8 {
-              background-color: lightcyan;
-            }
-
-            .area-8:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .area-9 {
-              background-color: sandybrown;
-            }
-
-            .area-9:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .area-10 {
-              background-color: indianred;
-            }
-
-            .area-10:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .v-slot-tituloarea:hover {
-              background-color: #73a5d7;
-            }
-
-
-            .titulomodulo {
-              padding: 10px 10px 3px 10px;
-              width: 100%;
-              font-weight: bold;
-              border-bottom: 1px solid slategray;
-            }
-
-            .opcionmenu {
-
-              width: 100%;
-              padding: 3px 10px 3px 10px;
-              cursor: pointer;
-
-            }
-
-            .opcionmenu.selected {
-              background-color: whitesmoke;
-            }
-
-            .v-slot-opcionmenu:hover {
-              background-color: #73a5d7;
-            }
-
-
-          }
-
-
+        .foto:hover {
+          border-color: whitesmoke;
         }
-
-      .center {
 
       }
+
+
+
+      .v-slot-tituloarea {
+        margin-top: 14px;
+        margin-bottom: 20px;
+      }
+
+      .navegacion {
+
+        width: 100%;
+        padding: 0px;
+
+        .tituloarea {
+          padding: 10px;
+          width: 100%;
+          font-weight: bold;
+          text-align: center;
+          cursor: pointer;
+
+          a {
+            text-decoration: none;
+            color: #191919 !important;
+          }
+
+        }
+
+        .v-slot-tituloarea {
+          background-color: slategray;
+        }
+
+        .area-1 {
+          background-color: slategrey;
+        }
+
+        .area-1:hover {
+          background-color: #73a5d7;
+        }
+
+        .area-2 {
+          background-color: lightyellow;
+        }
+
+        .area-2:hover {
+          background-color: #73a5d7;
+        }
+
+        .area-3 {
+          background-color: lightcoral;
+        }
+
+        .area-3:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .area-4 {
+          background-color: lightblue;
+        }
+
+        .area-4:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .area-5 {
+          background-color: lightgreen;
+        }
+
+        .area-5:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .area-6 {
+          background-color: lightpink;
+        }
+
+        .area-6:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .area-7 {
+          background-color: lightseagreen;
+        }
+
+        .area-7:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .area-8 {
+          background-color: lightcyan;
+        }
+
+        .area-8:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .area-9 {
+          background-color: sandybrown;
+        }
+
+        .area-9:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .area-10 {
+          background-color: indianred;
+        }
+
+        .area-10:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .v-slot-tituloarea:hover {
+          background-color: #73a5d7;
+        }
+
+
+        .titulomodulo {
+          padding: 10px 10px 3px 10px;
+          width: 100%;
+          font-weight: bold;
+          border-bottom: 1px solid slategray;
+        }
+
+        .opcionmenu {
+
+          width: 100%;
+          padding: 3px 10px 3px 10px;
+          cursor: pointer;
+
+          a {
+            text-decoration: none;
+            color: #191919 !important;
+          }
+
+
+        }
+
+        .opcionmenu.selected {
+          background-color: whitesmoke;
+        }
+
+        .v-slot-opcionmenu:hover {
+          background-color: #73a5d7;
+        }
+
+        .submenuoption {
+
+          a {
+            text-decoration: none;
+            color: #191919 !important;
+          }
+
+        }
+
+
+      }
+
+
+    }
+
+    .center {
+
+    }
+
+
+    .v-widget {
+      .nopadding {
+        padding: 0px;
+      }
+
+
+      .labelconlink {
+        margin-top: 7px;
+      }
+
+      .botondeicono {
+        padding: 0px;
+        height: inherit;
+        opacity: 1;
+      }
+    }
+
+
+
+
+    .viewcontainer {
+      .nopadding {
+        padding: 0px;
+      }
+    }
+
+    .methodresultflowcomponent {
+      .nopadding {
+        padding: 0px;
+      }
+    }
 
     .embedded {
       padding: 0px;
@@ -271,10 +343,9 @@
 
     .sum {
       padding: 5px 19px;
-      background-color: darkred;
+      background-color: darkgray;
       font-weight: bold;
       color: white;
-      border: 1px solid black;
       border-radius: 3px;
     }
 
@@ -311,20 +382,20 @@
 
   .miapp[width-range~="0-800px"] {
 
-        .appheader {
-          .burguer {
-            display: block;
-          }
+    .appheader {
+      .burguer {
+        display: block;
+      }
 
-          .tabs {
-            display: none;
-          }
+      .tabs {
+        display: none;
+      }
 
-          .navigate {
-            display: none;
-          }
+      .navigate {
+        display: none;
+      }
 
-        }
+    }
 
 
     .loginilayoutdcha {
@@ -337,8 +408,8 @@
       position:relative;
       float: left;
 
-        display: none;
-      }
+      display: none;
+    }
 
   }
 
@@ -497,10 +568,10 @@
       border: none;
       margin-right: 5px;
 
-/*
-      background-color: lightgray;
-      border-radius: 5px;
-*/
+      /*
+            background-color: lightgray;
+            border-radius: 5px;
+      */
 
       border-radius: 4px;
       border: 1px solid #c5c5c5;
@@ -580,9 +651,9 @@
     .filtersflowcomponent {
       padding: 0px;
 
-        .contentcontainer {
-          padding: 0px;
-        }
+      .contentcontainer {
+        padding: 0px;
+      }
 
     }
 

@@ -15050,6 +15050,22 @@ div.v-layout.v-horizontal.v-widget {
 	overflow: hidden;
 }
 
+.mateumdd .mobileapp {
+	padding: 0px;
+}
+
+.mateumdd .mobileapp .componentwrapper {
+	padding: 10px;
+}
+
+.mateumdd .mobileapp .componentwrapper .section {
+	padding: 0px;
+}
+
+.mateumdd .mobileapp .componentwrapper .filterscomponent {
+	padding: 0px;
+}
+
 .mateumdd .miapp {
 	width: 100%;
 	height: 100%;
@@ -15135,6 +15151,11 @@ div.v-layout.v-horizontal.v-widget {
 	font-weight: bold;
 	text-align: center;
 	cursor: pointer;
+}
+
+.mateumdd .miapp .leftside .navegacion .tituloarea a {
+	text-decoration: none;
+	color: #191919 !important;
 }
 
 .mateumdd .miapp .leftside .navegacion .v-slot-tituloarea {
@@ -15238,12 +15259,44 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: pointer;
 }
 
+.mateumdd .miapp .leftside .navegacion .opcionmenu a {
+	text-decoration: none;
+	color: #191919 !important;
+}
+
 .mateumdd .miapp .leftside .navegacion .opcionmenu.selected {
 	background-color: whitesmoke;
 }
 
 .mateumdd .miapp .leftside .navegacion .v-slot-opcionmenu:hover {
 	background-color: #73a5d7;
+}
+
+.mateumdd .miapp .leftside .navegacion .submenuoption a {
+	text-decoration: none;
+	color: #191919 !important;
+}
+
+.mateumdd .miapp .v-widget .nopadding {
+	padding: 0px;
+}
+
+.mateumdd .miapp .v-widget .labelconlink {
+	margin-top: 7px;
+}
+
+.mateumdd .miapp .v-widget .botondeicono {
+	padding: 0px;
+	height: inherit;
+	opacity: 1;
+}
+
+.mateumdd .miapp .viewcontainer .nopadding {
+	padding: 0px;
+}
+
+.mateumdd .miapp .methodresultflowcomponent .nopadding {
+	padding: 0px;
 }
 
 .mateumdd .miapp .embedded {
@@ -15257,10 +15310,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .mateumdd .miapp .sum {
 	padding: 5px 19px;
-	background-color: darkred;
+	background-color: darkgray;
 	font-weight: bold;
 	color: white;
-	border: 1px solid black;
 	border-radius: 3px;
 }
 

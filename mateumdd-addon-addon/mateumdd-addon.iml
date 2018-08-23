@@ -57,7 +57,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.platform.yui:yuicompressor:2.4.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: rhino:js:1.7R2" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-themes:8.5.1" level="project" />
-    <orderEntry type="library" name="Maven: io.mateu:mdd-core:0.0.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: io.mateu:mdd-core:0.0.3-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:eclipselink:2.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:javax.persistence:2.1.1" level="project" />
@@ -189,6 +189,7 @@
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-compatibility-server:8.0.5" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-compatibility-shared:8.0.5" level="project" />
     <orderEntry type="library" name="Maven: eu.maxschuster:dataurl:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.vaadin.addons:fontawesomelabel:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.30" level="project" />
   </component>
 </module>
