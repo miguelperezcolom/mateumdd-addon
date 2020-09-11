@@ -1,0 +1,6 @@
+.idea
+target
+overlays
+*.iml
+mdd-vaadin/src/main/webapp/tmp
+mdd-vaadin/src/main/webapp/VAADIN/themes/mytheme/styles.css

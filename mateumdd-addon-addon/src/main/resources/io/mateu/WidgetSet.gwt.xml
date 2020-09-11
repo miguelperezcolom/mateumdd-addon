@@ -6,6 +6,8 @@
 	<inherits name="com.vaadin.DefaultWidgetSet" /> 
 
 	<!-- Widget styles in public -directory -->
-	<stylesheet src="mateumdd-addon/styles.css"/>
+	<!--
+	<stylesheet src="mateumddtheme/styles.css"/>
+	-->
 
 </module>

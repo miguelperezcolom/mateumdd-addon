@@ -1,7 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="war" name="mateumdd-addon-demo:war">
     <output-path>$PROJECT_DIR$/mateumdd-addon-demo/target</output-path>
-    <root id="archive" name="mateumdd-addon-demo-0.0.2.war">
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mateumdd-addon-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mateumdd-addon-demo-0.0.10.war">
       <element id="artifact" artifact-name="mateumdd-addon-demo:war exploded" />
     </root>
   </artifact>
