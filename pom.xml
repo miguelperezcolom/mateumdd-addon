@@ -6,7 +6,7 @@
 	<artifactId>mateumdd-addon-root</artifactId>
 	<packaging>pom</packaging>
 	<version>0.0.3</version>
-	<name>MyComponent Add-on Root Project</name>
+	<name>Mateu MDD Add-on Root Project</name>
 
 	<prerequisites>
 		<maven>3</maven>

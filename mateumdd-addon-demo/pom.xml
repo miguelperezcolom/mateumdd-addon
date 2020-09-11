@@ -6,7 +6,7 @@
 	<artifactId>mateumdd-addon-demo</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.10</version>
-	<name>MyComponent Add-on Demo</name>
+	<name>Mateu MDD Add-on Demo</name>
 
 	<prerequisites>
 		<maven>3</maven>
