@@ -1,9 +1,12 @@
 package io.mateu.demo;
 
-import io.mateu.mdd.core.annotations.MateuMDDApp;
-import io.mateu.mdd.core.app.SimpleMDDApplication;
+import io.mateu.mdd.core.annotations.MateuUI;
+import io.mateu.mdd.shared.annotations.Home;
 
-@MateuMDDApp(path = "")
-public class MyApp extends SimpleMDDApplication {
+@MateuUI(path = "")
+public class MyApp {
+
+    @Home
+    String home = "<h1>Hello, World!</h1>";
 
 }

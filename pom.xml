@@ -5,7 +5,7 @@
 	<groupId>io.mateu</groupId>
 	<artifactId>mateumdd-addon-root</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.3</version>
+	<version>0.0.14</version>
 	<name>Mateu MDD Add-on Root Project</name>
 
 	<prerequisites>

@@ -5,7 +5,7 @@
 	<groupId>io.mateu</groupId>
 	<artifactId>mateumdd-addon</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.10</version>
+	<version>0.0.14</version>
 	<name>Mateu MDD Add-on</name>
 
 	<prerequisites>
@@ -131,15 +131,40 @@
 		<!-- Mateu MDD dependencies -->
 		<dependency>
 			<groupId>io.mateu</groupId>
-			<artifactId>mdd-core</artifactId>
-			<version>0.0.11</version>
+			<artifactId>mdd-vaadin</artifactId>
+			<version>0.0.14</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.mateu</groupId>
+			<artifactId>mdd-sharedinterfaces</artifactId>
+			<version>0.0.14</version>
 		</dependency>
 
 		<dependency>
 			<groupId>io.mateu</groupId>
 			<artifactId>mdd-annotationprocessing</artifactId>
-			<version>0.0.11</version>
+			<version>0.0.14</version>
 		</dependency>
+
+		<dependency>
+			<groupId>io.mateu</groupId>
+			<artifactId>security-core</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.mateu</groupId>
+			<artifactId>security-fake</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.mateu</groupId>
+			<artifactId>mdd-fakespringboot</artifactId>
+			<version>0.0.14</version>
+		</dependency>
+
 
 
 	</dependencies>

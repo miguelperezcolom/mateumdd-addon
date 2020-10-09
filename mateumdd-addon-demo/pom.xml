@@ -5,7 +5,7 @@
 	<groupId>io.mateu</groupId>
 	<artifactId>mateumdd-addon-demo</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.10</version>
+	<version>0.0.14</version>
 	<name>Mateu MDD Add-on Demo</name>
 
 	<prerequisites>
